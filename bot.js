@@ -137,7 +137,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Nandhutty working!')
+            chalk.green.bold('✅ KUNJAPPI_V2 working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -391,8 +391,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Nandhutty ~______~*' +
-                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```Report errors\njoin with +91 \nhttps://chat.whatsapp.com/DsWqJWHRxgU16kvxFvLYL6``` ' 
+                                await conn.sendMessage(conn.user.jid, '*~_________~ KUNJAPPI_V2 ~______~*' +
+                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```Report errors\njoin with +91 \nhttps://chat.whatsapp.com/CNML5JPLQrvL1rV0KFG453`` ' 
                                     , MessageType.text);
                             }
                         }
